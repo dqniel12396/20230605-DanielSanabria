@@ -1,0 +1,34 @@
+git remote add origin git@github.com:dqniel12396/20230605-DanielSanabria.git
+  498  git push origin main
+  499  git push -u  origin main
+  500  git add README.MD
+  501  touch comandos.txt main.js index.html
+  504  git add .
+  505  git commit -m "commit-01-DanielSanabria"
+  506  git push origin main
+  507  git branch feature
+  508  git checkout feature
+  509  mkdir Hardware Software SeguridadInformatica
+  510  cd Hardware/
+  511  touch resumen.txt
+  512  cd ..
+  513  cd Software/
+  514  touch resumen.txt
+  515  cd ..
+  516  cd SeguridadInformatica/
+  517  touch resumen.txt
+  518  cd ..
+  519  git add .
+  520  git commit -m "commit-02-DanielSanabria"
+  521  git push origin feature
+  522  git checkout main
+  523  git mv main.js resumenHardware.txt
+  524  cd resumenHardware.txt
+  525  git mv index.html resumenSoftware.txt
+  526  nano resumenSoftware.txt
+  527  nano resumenHardware.txt
+  528  git add .
+  529  git commit -m "commit-03-DanielSanabria"
+  530  git push origin main
+  531  history
+
